@@ -1,14 +1,13 @@
+:root{
+    --cor-fundo: #D7F2BA;
+    --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png");
+}
+
 body {
     background: var(--cor-fundo);
     height: 100%;
     font-family: 'Roboto', cursive;
     transition: 2s;
-}
-
-:root{
-    --cor-fundo: #D7F2BA;
-    --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png");
-
 }
 
 .mudar-tema{

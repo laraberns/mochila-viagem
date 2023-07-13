@@ -110,6 +110,7 @@ function deletaElemento(tag, id) {
 
 const botaoTema = document.getElementById("btn")
 
+  // add class dark-mode para o body e assim altera cor de fundo e icone do dark mode
 botaoTema.addEventListener("click", () => {
     document.body.classList.toggle("dark-mode")
 })
